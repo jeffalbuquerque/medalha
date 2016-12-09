@@ -75,6 +75,7 @@ Adicione a gem necessária no Gemfile e faça o build da imagem novamente
 
 ```sh
 docker-compose build
+docker-compose run web bundle install
 docker-compose up
 ```
 
