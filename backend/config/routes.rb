@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'checkins#index'
 
   resources :checkin
   resources :painelmedalha

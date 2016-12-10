@@ -1,0 +1,27 @@
+
+<h1>Check in de usuário</h1>
+
+<div class="form-group">
+  <label for="sel1">Usuário:</label>
+  <select class="form-control" id="sel1">
+    <% Usuario.all.each do |usuario| %>
+    <option>
+      <%= usuario.nome %>
+    </option>
+    <% end %>
+  </select>
+</div>
+
+<div class="form-group">
+  <label for="sel1">Atividade:</label>
+  <select class="form-control" id="sel1">
+    <% Atividade.all.each do |atividade| %>
+    <option>
+      <%= atividade.descricao %>
+    </option>
+    <% end %>
+  </select>
+</div>
+
+<button type="button" class="btn btn-default">Check in</button>
+<button type="button" class="btn btn-primary">Voltar</button>
