@@ -1,7 +1,7 @@
 class PainelmedalhaController < ApplicationController
 
   def index
-    @checkins = Checkin.findAll()
+    @atividades = Atividade.all
   end
 
 end

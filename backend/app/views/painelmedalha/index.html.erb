@@ -1,0 +1,8 @@
+<h1>Painel de Medalhas</h1>
+<% @atividades.each do |atividade| %>
+    <h3><%= atividade.descricao %></h3>
+    <% atividade.usuario.each do |usuario| %>
+      Usuário: <%= usuario.nome %><br>
+      Medalhas: <%= usuario.checkin.count %><br>
+    <% end %>
+<% end %>
