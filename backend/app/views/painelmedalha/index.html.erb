@@ -1,19 +1,37 @@
+<%= image_tag("medalha.png")%>
 <h1>Painel de Medalhas</h1>
 
 <br>
 <br>
-
-
 <h4>Atividade Lavar a Louça</h4>
+  <h4>Atividade Programar em Rails</h4>
+  <table class="table table-hover">
+    <tr>
+      <th>Nome</th>
+      <th>Quantidade</th>
+      <th>Medalhas</th>
+    </tr>
+    <tr>
+      <td>Eder</td>
+      <td>10</td>
+      <td>Ouro</td>
+    </tr>
+    <tr>
+      <td>Antonio</td>
+      <td>3</td>
+      <td>Bronze</td>
+    </tr>
+  </table>
+<br>
+
+<h4>Preparar Almoço para Todos</h4>
 <table class="table table-hover">
   <tr>
     <th>Nome</th>
     <th>Quantidade</th>
     <th>Medalhas</th>
   </tr>
-  <% @checkins.each do |checkin| %>
   <tr>
-<<<<<<< HEAD
     <td>João</td>
     <td>4</td>
     <td>Bronze</td>
@@ -69,13 +87,4 @@
     <td>1</td>
     <td>-</td>
   </tr>
-
-=======
-    <td><%= checkin %></td>
-
-  </tr>
-  <% end %>
->>>>>>> 85895d255e38987f835e2b7191c734e2be9ddba5
 </table>
-
-<br>
