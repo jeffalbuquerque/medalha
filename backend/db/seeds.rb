@@ -9,4 +9,6 @@ usuarios = Usuario.create([{nome: 'João'}, {nome: 'Antonio'}, {nome: 'Marcelo'}
 {nome: 'Eder'}])
 
 atividades = Atividade.create([{descricao: 'Lavar a louça'}, {descricao: 'Programar em Rails'},
-{descricao: 'Almoçar'}, ])
+{descricao: 'Almoçar'} ])
+
+checkins = Checkin.create([{usuario_id: 1, atividade_id: 1},{usuario_id: 1, atividade_id: 3},{usuario_id: 1, atividade_id: 2}])
