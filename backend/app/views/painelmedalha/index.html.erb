@@ -6,11 +6,10 @@
     <th>Quantidade</th>
     <th>Medalhas</th>
   </tr>
-  <% checkins.each |checkin| do %>
+  <% @checkins.each do |checkin| %>
   <tr>
-    <td>Jill</td>
-    <td>30</td>
-    <td>Prata</td>
+    <td><%= checkin %></td>
+
   </tr>
   <% end %>
 </table>
